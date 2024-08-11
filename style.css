@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+/* Home Section */
+#home {
+    background: #000000;
+    padding: 100px 0 ;
+    text-align: center;
+    background:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+    background-size: cover;
+    background-position: center;
+}
+
+#home h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+   
+}
+
+
+#home p {
+    font-style: italic;
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+.btn-primary {
+    font-family: poppins;
+    background: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/* skill Section */
+#skills {
+    background: #000000;
+    color: #fff;
+    padding: 120px 50px;
+    padding-bottom: 200px;
+}
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+}
+#skills h1 {
+    color: #ffffff;
+    font-size: 2.3em;
+
+}
+.skill {
+    flex: 1;
+    margin: 0 20px;
+}
+.skill h4 {
+    font-size: 1.5em;
+}
+
+/* Contact Section */
+#contact {
+    background: #000000;
+    color: #fff;
+    padding: 200px 0;
+    text-align: center;
+    background:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.btn-secondary {
+    font-weight: 700;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: poppins;
+}
+
+/* Footer Section */
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Media Section For Responsive page(mobile) */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    header h1 {
+        float: none;
+        text-align: center;
+    }
+
+    header nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #home h2 {
+        font-size: 2em;
+    }
+
+    #home p {
+        font-size: 0.7em;
+    }
+
+    .skills-grid {
+        flex-direction: column;
+    }
+
+    .skill {
+        margin: 10px 0;
+    }
+
+    #skills {
+        padding: 60px 20px;
+    }
+
+    #contact {
+        padding: 100px 20px;
+    }
+
+    .btn-primary, .btn-secondary {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+}
